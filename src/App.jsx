@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Disclaimer  from './pages/Disclaimer';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import AboutUs from './pages/AboutUs'
 import NotFound from './pages/NotFound';
 
 
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/Disclaimer" element={<Disclaimer />} />
           <Route path='/PrivacyPolicy' element={<PrivacyPolicy/>}/>
+          <Route path='/AboutUs' element={<AboutUs/>}/>
            <Route path="*" element={<NotFound />} />
         </Routes>
 
