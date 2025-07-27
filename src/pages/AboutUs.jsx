@@ -4,7 +4,7 @@ function blog() {
     return (
         <div className="vip-events">
             <Helmet>
-                <title>About 92PKR - Trusted Color Prediction Game in Pakistan
+                <title>About 92PKR - Trusted Color Prediction Game in Pakistans
                 </title>
                 <meta
                     name="description"
